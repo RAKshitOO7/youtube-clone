@@ -5,7 +5,7 @@ import {useNavigate} from 'react-router-dom';
 const Search=()=>{
     const [searchTerm,setSearchTerm]=useState('');
     const [videos,setVideos]=useState([]);
-    const API_KEY='AIzaSyC3YuKqIY0TOp64j9XReNTY_8-3GYLYhJ4';
+    const API_KEY='Your_Api_key';
     const MAX_Video=10;
     const handleSearch= async()=>{
     try{
