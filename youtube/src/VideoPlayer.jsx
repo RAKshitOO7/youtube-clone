@@ -8,7 +8,7 @@ const VideoPlayer=()=>{
     const {video}=state;
     const [userDetails,setUserDetails]=useState({});
     const [comments,setComments]=useState([]);
-    const API_KEY='AIzaSyC3YuKqIY0TOp64j9XReNTY_8-3GYLYhJ4';
+    const API_KEY='your api key';
     const fetchDetail=useCallback(async()=>{
         try{
         const response=await axios.get('https://www.googleapis.com/youtube/v3/videos',{
